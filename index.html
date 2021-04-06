@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Hacking</title>
+    <meta charset="utf-8">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+  
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url(https://images3.alphacoders.com/853/thumb-1920-85329.jpg);
+        }
+  
+        .gfg{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 1000px;
+            flex-wrap: wrap;
+            z-index: 1;
+        }
+           
+        .gfg .card{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 60px;
+            box-shadow: 20px 20px 50px rgb(0,0,0,0.4);
+            border-radius: 15px;
+            background: rgba(255,255,255,0.1);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(6px);
+        }
+  
+        .gfg .card .content{
+            padding: 40px;
+            text-align: center;
+        }
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green; 
+}
+mark {
+    background: red;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: blue;
+}
+
+    </style>
+</head>
+  
+<body>
+    <div class="gfg">
+        <div class="card">
+            <div class ="content">
+                <h1><mark>Welcome</mark></h1>
+                <br>
+                <h2><mark>We Are Going To Hack Something.Just Click Next</mark></h2>
+            </div>
+        </div>
+    </div>
+    <script src="vanilla-tilt.js">
+    </script>
+      
+    <script>
+        VanillaTilt.init(document.querySelector(".card"), {
+          max: 40,
+          speed: 800,
+          glare: true,
+          "max-glare": 2.5,
+        });
+    </script>
+
+<h1><button><p><a href="index2.html">Next</a></p></button></h1>
+</body>
+    
+</html>
+
+
+
+
+
